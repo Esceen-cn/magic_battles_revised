@@ -18,9 +18,9 @@
 </div>
 <h2>概述</h2>
 <div class="section">
-  <p>本模组致力于解决敌我双方施法者战斗过程中的规则和战术混乱问题。对安装了SCS的玩家来说，有些战斗过程过于冗长复杂。（论坛上的常见建议是，“等敌方法师的防护过期，然后上去抡”。）另一方面，对使用原版法术系统的玩家来说，法术防护又太容易规避。（“完全无视法术防护，就对法师用破解术，然后上去抡。”）再就是各种法术的限制让人抓狂——为什么五级的次级法术反转挡不了弱智术，而三级的次级法术偏转却可以？</p>
+  <p>本模组致力于解决敌我双方施法者战斗过程中的规则和战术混乱问题。对安装了SCS的玩家来说，有些战斗过程过于冗长复杂。（论坛上的常见建议是，“等敌方法师防护过期，然后上去抡”。）另一方面，对使用原版法术系统的玩家来说，法术防护又太容易规避。（“完全无视法术防护，就对法师用破解术，然后上去抡。”）再就是各种法术的限制让人抓狂——为什么五级的次级法术反转挡不了弱智术，而三级的次级法术偏转却可以？</p>
   <p>本模组尝试让法术防护更有用、更值得使用，保证施法者可以变得非常强大，甚至暂时处于无敌状态，同时也给敌方法师有效的手段来破除这种无敌状态，从而使法术战以相当快速、明确和令人满意的的方式进行。</p>
-  <p>第一部分关于这些规则如何运作的<i>描述</i>可能有些冗长复杂，但本模组希望达到的目标是，你在游戏中不必再绞尽脑汁考虑这些——把法术防护都扒干净，然后攻击法师就行。所有可用的手段都能用，当然更强力的手段会更有效。</p>
+  <p>第一部分关于这些规则如何运作的<i>描述</i>可能有些冗长复杂，但本模组希望达到的目标是，你在游戏中不必再绞尽脑汁考虑这些——把法术防护移除，然后攻击法师就行。所有可用的手段都能用，当然更强力的手段会更有效。</p>
   <p>本模组应安装在Spell Revisions、IWDification、SCS冰风谷法术组件这样的法术模组之后。</p>
 </div>
 <h2>1、法术战规则</h2>
@@ -29,34 +29,34 @@
   <ul>
     <li>第一种是<b>偏转类</b>，可以阻挡所有等级的法术，但只能阻挡一定数量，这个数量用“法术等级”来量度。以原版法术“法术偏转”举例来说，它能阻挡10个“等级”，意味着可以阻挡10个1级法术，也可以阻挡1个9级法术和1个其它等级的法术，再之后防护就会消失。通常，偏转类防护只能阻挡直接指向施法者的法术——不能阻挡区域型或云雾型法术。与原版游戏不同的是，偏转类防护能阻挡的法术不再限制等级，仅考虑它们能偏转多少个法术等级即可。安装本模组后的偏转类防护有<i>次级法术偏转</i>、<i>法术偏转</i>、<i>高级法术偏转</i>，还有一个<i>亚穹力场</i>。<br />
     <b>兼容性提示：</b>本模组与Spell Revisions完全兼容，包括其“NWN-Style Deflection”组件，允许法术偏转对大部分区域性法术生效（但依然不包括云雾型法术）。</li>
-    <li>第二种是<b>免疫类</b>，能阻挡的法术数量不受限制，但等级受限制。这部分跟原版游戏没有区别：<i>次级法术无效结界</i>最高可阻挡3级法术，<i>法术无效结界</i>最高可阻挡4级法术。与偏转类防护不同，免疫类防护可阻挡区域型法术（如火球术）和云雾型法术（如臭云术）。本模组不同之处在于<i>法术陷阱</i>也被移入此类别中，可阻挡最高到9级的所有法术。</li>
-    <li>第三种是护盾类，并不直接提供法术防护，但可以防止前两类法术防护被消除。此类防护主要是<i>法术护盾</i>。另外，安装本模组后，<i>法术陷阱</i>会成为第二个护盾类防护，还能额外提供法术免疫能力。</p></li>
+    <li>第二种是<b>结界类</b>，能阻挡的法术数量不受限制，但等级受限制。这部分跟原版游戏没有区别：<i>次级法术无效结界</i>最高可阻挡3级法术，<i>法术无效结界</i>最高可阻挡4级法术。与偏转类防护不同，结界类防护可阻挡区域型法术（如火球术）和云雾型法术（如臭云术）。本模组不同之处在于<i>法术陷阱</i>也被移入此类别中，可阻挡最高到9级的所有法术。</li>
+    <li>第三种是<b>护盾类</b>，并不直接提供法术防护，但可以防止前两类法术防护被消除。此类防护主要是<i>法术护盾</i>。另外，安装本模组后，<i>法术陷阱</i>会成为第二个护盾类防护，还能额外提供结界类防护能力。</p></li>
   </ul>
-  <p>要记住的关键点是，法术防护是分层的，这一点定义了破魔法术的设计机制（见下面的描述）。<i>法术偏转</i>和<i>次级法术偏转</i>的<b>效果</b>不会叠加——它们共同作用时只能吸收高等级的<i>法术偏转</i>提供的10个等级的法术——但面对像法术穿透和密言术这样的破魔法术时，它们同时存在时可以提供两层独立的防护。再加上<i>高级法术偏转</i>变成三层防护，再加法术无效结界变成四层，再加法术护盾变成五层，再加法术陷阱变成六层。实际上<i>偏转类防护</i>会自动施放相应的次级版本，所以施放<i>高级法术偏转</i>会同时给你<i>法术偏转</i>和<i>次级法术偏转</i>的效果，这意味着你拥有20个等级针对普通法术的防护，和3层针对破魔法术的防护。</p>
-  <p>法师的防护层数决定了他免受攻击的能力。当攻击一个上好防护的敌人时（比如SCS中的法师一开战就通过意外术和序列器上好buff），问题不再是“能否破解防护”，而是“破解防护的快慢”。如果你对敌人施放密言术后他们依然有防护，通常你可以认为已经剥掉了他们的<b>部分</b>防护，如果你继续这样很快就能瓦解他们的防御。（除非他们有<i>法术陷阱</i>——<i>法术陷阱</i>的特别之处在于它能完全阻挡低等级破魔法术，除了<i>红宝石逆转射线</i>和<i>识破护盾</i>。）所以实战中你可以尝试搞清敌人有多少层防护，然后制定最优的攻击策略；或者干脆不停地使用破魔法术直到防护移除为止。安装本模组后，这些方式都是可行的。</p>
-  <p>Magic attacks like Spell Thrust and Pierce Magic are modified to play into this system. Gone is the limitation that they can only affect defenses of a certain spell level. All magic attacks, from the lowly Spell Thrust up, can affect all spell defenses, with the exception of the apex defenses <i>Shield of the Archons</i> and <i>Spell Trap</i>. (You need a 6th-level </i>Pierce Magic</i> or better to affect <i>Shield of the Archons</i>, and a <i>Ruby Ray</i>, <i>Pierce Shield</i>, or <i>Spellstrike</i> to affect <i>Spell Trap</i>.) Instead, magic attacks are differentiated by how many <b>layers</b> of spell defenses they can remove at once.</p>
-  <p>I have also given several magic attacks small secondary effects so that they can have some effect on even the most highly protected enemies.</p>
+  <p>要记住的关键点是，法术防护是分层的，这一点定义了破魔法术的设计机制（见下面的描述）。<i>法术偏转</i>和<i>次级法术偏转</i>的<b>效果</b>不会叠加——它们共同作用时只能吸收高等级的<i>法术偏转</i>提供的10个等级的法术——但面对像法术穿透和密言这样的破魔法术时，它们同时存在时可以提供两层独立的防护。再加上<i>高级法术偏转</i>变成三层防护，再加法术无效结界变成四层，再加法术护盾变成五层，再加法术陷阱变成六层。实际上<i>偏转类防护</i>会自动施放相应的次级版本，所以施放<i>高级法术偏转</i>会同时给你<i>法术偏转</i>和<i>次级法术偏转</i>的效果，这意味着你拥有20个等级针对普通法术的防护，和3层针对破魔法术的防护。</p>
+  <p>法师的防护层数决定了他免受攻击的能力。当攻击一个上好防护的敌人时（比如SCS中的法师一开战就通过意外术和序列器上好buff），问题不再是“能否破解防护”，而是“破解防护的快慢”。如果你对敌人施放密言后他们依然有防护，通常你可以假设至少已经剥掉了他们的<b>部分</b>防护，继续这样很快就能瓦解他们的防御。（除非他们有<i>法术陷阱</i>——<i>法术陷阱</i>的特别之处在于它能完全阻挡低级破魔法术，除了<i>红宝石逆转射线</i>和<i>识破护盾</i>以外。）所以实战中你可以尝试搞清敌人有多少层防护，然后制定最优的攻击策略；或者干脆不停地使用破魔法术直到防护移除为止。安装本模组后，这些方式都是可行的。</p>
+  <p>像法术穿透和识破魔法这样的破魔法术也被修改，以融入这套系统，而且移除了只能影响特定等级法术防护的限制。所有破魔法术，从低级的法术穿透开始，都能影响所有的法术防护，只有最顶级的两个法术防护<i>亚穹力场</i>和<i>法术陷阱</i>是例外。（你需要6级的</i>识破魔法</i>或更高等级的破魔法术才能影响<i>亚穹力场</i>，然后需要<i>红宝石逆转射线</i>、<i>识破护盾</i>或<i>法术重击</i>才能影响<i>法术陷阱</i>。）破魔法术之间的区别在于，它们能立即移除的法术防护的<b>层数</b>。</p>
+  <p>我还给几个破魔法术添加了额外效果，可以让它们更好的对付受到重重保护的敌方法师。</p>
   <ul>
-    <li><i>Spell Thrust</i> destroys one layer of protection. If the target has a <i>Spell Shield</i>, it will destroy the spell shield and will not remove any layers of deflection or invulnerability.</li>
-    <li><i>Secret Word</i> destroys two layers of protection. Additionally, even if the target is still protected, it can cause one round of deafness (50% casting failure) if the target fails a save vs. spells. If the target has a <i>Spell Shield</i>, it will destroy the spell shield and will not remove any layers of deflectoin or invulnerability.</li>
-    <li>The "<i>Pierce...</i>" spells are special in that they can take out a spell shield in addition to removing other protections, rather than instead of removing other protections. So <i>Pierce Magic</i> destroys two layers of protection <b>plus</b> a <i>Spell Shield</i>. Additionally, even if the target is still protected, it will reduce their magic resistance, if any, to zero for two rounds. </li>
-    <li><i>Warding Whip</i> is a bit like casting <i>Secret Word</i> three times in a row: it will remove either one <i>Spell Shield</i> or two layers of protection (in that order), each round for three rounds. (It does not have the secondary deafness effect, though.)</li>
-    <li><i>Ruby Ray of Reversal</i> is the first spell capable of defeating a <i>Spell Trap</i>, and it is also more effective at defeating normal spell defenses. It will remove either a <i>Spell Shield</i>, or a <i>Spell Trap</i>, or three layers of normal spell defenses (in that order). Additionally, even if the target is still protected, it can cause blindness for one round if the target fails a save vs. spells with a -2 penalty.</li>
-    <li><i>Pierce Shield</i> destroys a <i>Spell Shield</i> <b>and</b> either one <i>Spell Trap</i> or three layers of normal spell defenses. </li>
-    <li><i>Spellstrike</i> will remove all of a target's spell defenses in one fell swoop, and additionally will apply 100% casting failure to the target for one round, thus preventing the target from raising new defenses. This is basically god-level magic, and it can pretty much render anyone vulnerable.</p></li>
+    <li><i>法术穿透</i>移除一层法术防护。如果目标有<i>法术护盾</i>，则移除法术护盾，不会移除任何偏转类和结界类防护层数。</li>
+    <li><i>密言</i>移除两层法术防护。另外，目标即使还有防护，也会耳聋（50%几率施法失败）一轮，若通过法术豁免检定则无效。如果目标有<i>法术护盾</i>，则移除法术护盾，不会移除任何偏转类和结界类防护层数。</li>
+    <li>“<i>识破……</i>”的特别之处在于，可以在消除法术护盾的同时，移除其它法术防护。<i>识破魔法</i>移除两层法术防护<b>加上</b>一个<i>法术护盾</i>。另外，目标即使还有防护，魔法抗性（如果有的话）也会降为零，持续两轮。</li>
+    <li><i>凯尔本守护之鞭</i>的效果有点像连续施展<i>密言</i>三次：每轮移除一个<i>法术护盾</i>或两层法术防护（按上述顺序移除），持续三轮。（不过没有额外的耳聋效果。）</li>
+    <li><i>红宝石逆转射线</i>是第一个可以对付<i>法术陷阱</i>的法术,在对抗普通法术防护时也更加有效，可移除一个<i>法术护盾</i>、或一个<i>法术陷阱</i>、或三层普通法术防护（按上述顺序移除）。另外，目标即使还有防护，也会目盲一轮，若以-2不利通过法术豁免检定则无效。</li>
+    <li><i>识破护盾</i>移除一个<i>法术护盾</i>，<b>以及</b>一个<i>法术陷阱</i>或三层普通法术防护。</li>
+    <li><i>法术重击</i>可一次性移除目标的所有法术防护，同时目标在接下来一轮内施法必定失败，因此无法启用新的防护。 这可以说是神级法术，可以瓦解任何对手的防御。</p></li>
   </ul>
-  <p>Magic attacks that remove multiple layers of spell defenses remove the highest-level defenses first, with the exception that a <i>Spell Shield</i> will always be the first defense to be removed.</p>
+  <p>可移除多层法术防护的破魔法术，会优先移除最高等级的防护，只有一个例外，<i>法术护盾</i>永远是最先被移除的防护。</p>
   <p></p>
 </div>
-<h2>2. Related Systems</h2>
+<h2>2、相关系统</h2>
 <div class="section">
-  <p><i>Breach</i> will be blocked by all deflection defenses and by invulnerability effects where it makes sense (just <i>Spell Trap</i>, essentially). So it will be blocked once by <i>Minor Spell Deflection</i> since that blocks 5 spell levels, but will not be blocked by <i>Globe of Invulnerability</i> since that only blocks up to 4th level spells.</p>
-  <p>This mod incorporates my "breachier breach" concept in that it allows <i>Breach</i> to affect enemies such as liches and rakshasa which have innate invulnerability to certain spell levels.</p>
-  <p>This mod changes <i>Remove Magic</i> to be a sort of miniature <i>Breach</i>, so that you have another way to achieve <i>Breach</i>-style effects. Whereas <i>Breach</i> destroys all combat protections and specific protections, <i>Remove Magic</i> will remove <b>one</b> combat protection and <b>one</b> specific protection of up to 6th level. Like <i>Breach</i>, Remove Magic will work against liches and rakshasa.</p>
-  <p><i>Dispel Magic</i> works as usual, though there are several configuration options to modify its behavior; read more about them below. <b>COMPATIBILITY NOTE:</b> if this mod is installed after Polytope's Revised Dispel Magic mod (PolyDisp.tp2), then depending on your PolyDisp install options it may render spell defenses dispellable, which they ordinarily are not. Conversely, if you install PolyDisp after this mod, then PolyDisp will overwrite this new 'mini-Breach' version of <i>Remove Magic</i> and revert it to the spell's original 'similar-to-Dispel-Magic' behavior.</p>
-  <p>A note about Dispel Magic and Remove Magic and their area-of-effect design: while Deflections generally do not block area-of-effect spells, with this mod they <b>will</b> block <i>Dispel Magic</i> and <i>Remove Magic</i>. Globes of Invulnerability and creatures' innate spell level invulnerability will not block <i>Dispel Magic</i> and <i>Remove Magic</i>, though that is configurable (see below).</p>
+  <p><i>破解术</i>会被所有偏转类防护阻挡，也会被本应生效的结界类防护阻挡（其实只有<i>法术陷阱</i>）。所以，破解术会被<i>次级法术偏转</i>阻挡一次，因为这个防护阻挡了5个法术等级；但不会被<i>法术无效结界</i>阻挡， 因为这个防护只对最高4级法术生效。</p>
+  <p>本模组包含了我的“更具破环性的破解术”理念，让<i>破解术</i>可以影响巫妖和邪兽鬼这种天生免疫特定等级法术的敌人。</p>
+  <p>本模组将<i>移除魔法</i>改为<i>破解术</i>的弱化版，所以你可以有另一种方式达到类似<i>破解术</i>的效果。不像<i>破解术</i>移除所有战斗防护和特殊防护，<i>移除魔法</i>会移除<b>一个</b>战斗防护和<b>一个</b>特殊防护，可移除的防护法术最高为6级。与<i>破解术</i>一样，移除魔法对巫妖和邪兽鬼也生效。</p>
+  <p><i>解除魔法</i>与原版一样，不过有几个配置选项可修改其运作方式；具体见下文。<b>兼容性提示：</b>如果本模组安装在Polytope的Revised Dispel Magic模组（PolyDisp.tp2）之后，那取决于你的安装选择，有可能导致法术防护出现异常、可被驱散。如果你反过来在本模组之后安装PolyDisp，则会覆盖掉新的“弱化破解术”版本的<i>移除魔法</i>，将其转变为原版的“类似解除魔法”的机制。</p>
+  <p>关于解除魔法和移除魔法区域性设定的提示：尽管偏转类防护通常不能阻挡区域型法术，但安装本模组后，它们<b>可以</b>阻挡<i>解除魔法</i>和<i>移除魔法</i>。法术无效结界和生物的天生法术免疫能力不能阻挡<i>解除魔法</i>和<i>移除魔法</i>，不过这也是可配置的（见下文）。</p>
 </div>
-<h2>3. Aesthetic Tweaks</h2>
+<h2>3、视觉调整</h2>
 <div class="section">
   <p>This mod incorporates a version of DavidNYC's excellent work to systematize and distinguish the visual effects for various spells and defenses in the game. It removes the visual effects of ioun stones (a necessary evil, and let's admit it, they are comically large to represent small floating pebbles) and removes the visual effects for various spells (Spell Shield, Spell Turning) and then applies recolored variants to various defensive effects so that you can recognize which protections an enemy has. Roughly, the applied effects are these:</p>
   <ul>
@@ -77,13 +77,13 @@
   <p>You may come to recognize defensive spell effects by these visuals, or you may not care and rely on the combat log instead. Either way I think this is an overall visual improvement over the base game.</p>
   <p>The mod folder has a "visuals" subfolder with some pictures to show a protected mage being steadily disarmed by Secret Word/Secret Word/Breach. You can see more example pictures on pages 75-77 of the "SR Revised" thread in the Spell Revisions forum at Gibberlings3.net.</p>
 </div>
-<h2>5. Justifications for Certain Changes</h2>
+<h2>4、对某些改动的解释</h2>
 <div class="section">
-  <p>Why remove Spell Turning effects??</p>
+  <p>为什么要移除法术反转效果？？</p>
   <p>First, they add needless complexity with the way they could only block low-level incoming spells. Second, they make the game easy because human players can recognize them and avoid reflected effects while the AI enemies cannot. Third, because of that, if you use SCS then SCS casters will never be so stupid as to have spells reflected at them; but this means spell turning prevents SCS enemies from casting at you at all, so it is sort fo more powerful than it should be. AT the end of the day, they just don't add much to these fights. Only using Deflections gives mages adequate protection while really streamlining the systems for dealing with that protection. Props to Demi/Ardanis/kreso of Spell Revisions fame for initially making this change and convincing me of its superiority</p>
   <p>(I think I had more to write here, but now I forget...)</p>
 </div>
-<h2>5. Configuration Options</h2>
+<h2>5、配置选项</h2>
 <div class="section">
   <p>There are lots. They are controlled by the 'MBR_settings.ini' file. You can modify these settings before installing the mod. I will explain each one here.</p>
   <p>"<b>minor_deflection_levels_blocked</b>" These settings determine how many spell levels are blocked by the various Deflection spells. The default values are 5/10/20, and 30 for <i>Shield of the Archons</i>.</p>
