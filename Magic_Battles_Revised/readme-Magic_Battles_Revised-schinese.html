@@ -50,7 +50,7 @@
 </div>
 <h2>2、相关系统</h2>
 <div class="section">
-  <p><i>破解术</i>会被所有偏转类防护阻挡，也会被本应生效的结界类防护阻挡（其实只有<i>法术陷阱</i>）。所以，破解术会被<i>次级法术偏转</i>阻挡一次，因为这个防护阻挡了5个法术等级；但不会被<i>法术无效结界</i>阻挡， 因为这个防护只对最高4级法术生效。</p>
+  <p><i>破解术</i>会被所有偏转类防护阻挡，也会被本应生效的结界类防护阻挡（其实只有<i>法术陷阱</i>）。所以，破解术会被<i>次级法术偏转</i>阻挡一次，因为这个次级法术偏转阻挡了5个法术等级；但不会被<i>法术无效结界</i>阻挡， 因为法术无效结界只对最高4级法术生效。</p>
   <p>本模组包含了我的“更具破环性的破解术”理念，让<i>破解术</i>可以影响巫妖和邪兽鬼这种天生免疫特定等级法术的敌人。</p>
   <p>本模组将<i>移除魔法</i>改为<i>破解术</i>的弱化版，所以你可以有另一种方式达到类似<i>破解术</i>的效果。不像<i>破解术</i>移除所有战斗防护和特殊防护，<i>移除魔法</i>会移除<b>一个</b>战斗防护和<b>一个</b>特殊防护，可移除的防护法术最高为6级。与<i>破解术</i>一样，移除魔法对巫妖和邪兽鬼也生效。</p>
   <p><i>解除魔法</i>与原版一样，不过有几个配置选项可修改其运作方式；具体见下文。<b>兼容性提示：</b>如果本模组安装在Polytope的Revised Dispel Magic模组（PolyDisp.tp2）之后，那取决于你的安装选择，有可能导致法术防护出现异常、可被驱散。如果你反过来在本模组之后安装PolyDisp，则会覆盖掉新的“弱化破解术”版本的<i>移除魔法</i>，将其转变为原版的“类似解除魔法”的机制。</p>
@@ -58,59 +58,59 @@
 </div>
 <h2>3、视觉调整</h2>
 <div class="section">
-  <p>This mod incorporates a version of DavidNYC's excellent work to systematize and distinguish the visual effects for various spells and defenses in the game. It removes the visual effects of ioun stones (a necessary evil, and let's admit it, they are comically large to represent small floating pebbles) and removes the visual effects for various spells (Spell Shield, Spell Turning) and then applies recolored variants to various defensive effects so that you can recognize which protections an enemy has. Roughly, the applied effects are these:</p>
+  <p>本模组包含了DavidNYC的杰出作品，对游戏中各种法术和防护的视觉效果进行了系统整理和区分。移除了艾欧石的视觉效果（一个必要的牺牲，我得承认，它们用来代表漂浮的小石子有些过大了），另外删除了某些法术的视觉效果（法术护盾、法术反转），改变各种防护的视觉效果并重新着色，可以更直观地识别出敌人身上的防护。涉及到的法术大致上包括这些：</p>
   <ul>
-    <li><i>Protection from Normal Weapons</i> shows a stationary green-tinted light above the caster's head.</li>
-    <li><i>Protection from Magic Weapons</i> shows a stationary purple-tinted light above the caster's's head.</li>
-    <li><i>Absolute Immunity</i> shows a stationary light above the caster's's head that continually changes colors.</li>
-    <li><i>Protection from Missiles</i> shows a red rotating ioun stone animation.</li>
-    <li><i>Non-Detection</i> shows a black rotating ioun stone animation.</li>
-    <li><i>Minor Spell Deflection</i> shows three white swirling motes.</li>
-    <li><i>Spell Deflection</i> shows three blue swirling motes.</li>
-    <li><i>Greater Spell Deflection</i> shows three gold swirling motes.</li>
-    <li><i>Shield of the Archons</i> shows three teal swirling motes.</li>
-    <li><i>Spell Trap</i> shows three purple swirling motes.</li>
-    <li><i>Spell Shield</i> shows a tall semi-transparent blue oval around the caster.</li>
-    <li><i>Spell Immunity</i> (or <i>Dispelling Screen</i> if you have Spell Revisions installed) shows a glowing silver disc on the ground beneath the caster's feet.</li>
-    <li><i>Globes of Invulnerability</i> are the same semi-transparent globes that you know from the unmodded game.</p></li>
+    <li><i>防护普通武器</i>：在施法者头顶显示一个静止的绿色光球。</li>
+    <li><i>防护魔法武器</i>：在施法者头顶显示一个静止的紫色光球。</li>
+    <li><i>绝对免疫</i>：在施法者头顶显示一个静止的不断变换颜色的光球。</li>
+    <li><i>防护远程武器</i>：显示为一个旋转的红色艾欧石动画。</li>
+    <li><i>无法侦测</i>：显示为一个旋转的黑色艾欧石动画。</li>
+    <li><i>次级法术偏转</i>：显示为三个盘旋的白色尘埃云。</li>
+    <li><i>法术偏转</i>：显示为三个盘旋的蓝色尘埃云。</li>
+    <li><i>高级法术偏转</i>：显示为三个盘旋的金色尘埃云。</li>
+    <li><i>亚穹力场</i>：显示为三个盘旋的青色尘埃云。</li>
+    <li><i>法术陷阱</i>：显示为三个盘旋的紫色尘埃云。</li>
+    <li><i>法术护盾</i>：显示为一个环绕施法者的半透明蓝色椭球。</li>
+    <li><i>法术免疫</i>（或<i>固法屏障</i>，如果你安装了Spell Revisions的话）：显示为施法者脚下地面上的一个银色发光圆盘。</li>
+    <li><i>法术无效结界</i>：与原版游戏相同，还是你所熟悉的半透明圆球。</p></li>
   </ul>
-  <p>You may come to recognize defensive spell effects by these visuals, or you may not care and rely on the combat log instead. Either way I think this is an overall visual improvement over the base game.</p>
-  <p>The mod folder has a "visuals" subfolder with some pictures to show a protected mage being steadily disarmed by Secret Word/Secret Word/Breach. You can see more example pictures on pages 75-77 of the "SR Revised" thread in the Spell Revisions forum at Gibberlings3.net.</p>
+  <p>你可以通过这些视觉效果识别防护法术，如果你完全不在意也可以通过战斗记录识别。总之，不管怎样我认为这都是一个对原版游戏的视效改进。</p>
+  <p>模组文件夹中的“visual”子目录中有一些图片，显示了通过“密言-密言-破解术”解除法师防护的过程。你可以在Gibberlings3.net-Spell Revisions论坛-“SR Revised”话题的75至77页看到更多示例图片。</p>
 </div>
 <h2>4、对某些改动的解释</h2>
 <div class="section">
   <p>为什么要移除法术反转效果？？</p>
-  <p>First, they add needless complexity with the way they could only block low-level incoming spells. Second, they make the game easy because human players can recognize them and avoid reflected effects while the AI enemies cannot. Third, because of that, if you use SCS then SCS casters will never be so stupid as to have spells reflected at them; but this means spell turning prevents SCS enemies from casting at you at all, so it is sort fo more powerful than it should be. AT the end of the day, they just don't add much to these fights. Only using Deflections gives mages adequate protection while really streamlining the systems for dealing with that protection. Props to Demi/Ardanis/kreso of Spell Revisions fame for initially making this change and convincing me of its superiority</p>
-  <p>(I think I had more to write here, but now I forget...)</p>
+  <p>首先，它只能阻挡低级法术，增加了不必要的复杂性。其次，它让游戏变得过于简单，因为人类玩家能认出并规避反弹效果，而敌人的AI则不行。再次，正因为这样，如果你装了SCS，SCS施法者不会傻傻地让法术被反弹，但这意味着法术反转完全阻止了SCS敌人对你施法，这比它本来应达到的效果要更强大了。最后，它也没有为法术战增加多少变数。仅靠偏转类法术也能给法师足够的防护，而移除反转类法术确实简化了法术战系统。鉴于Demi、Ardanis、kreso著名的Spell Revisions首先作出了这项改动，我更加确信了它的优越性。</p>
+  <p>（应该还有很多，但我现在忘了要写什么了……）</p>
 </div>
 <h2>5、配置选项</h2>
 <div class="section">
-  <p>There are lots. They are controlled by the 'MBR_settings.ini' file. You can modify these settings before installing the mod. I will explain each one here.</p>
-  <p>"<b>minor_deflection_levels_blocked</b>" These settings determine how many spell levels are blocked by the various Deflection spells. The default values are 5/10/20, and 30 for <i>Shield of the Archons</i>.</p>
-  <p><b>spell_attack_delay</b> You can set this between 1 and 5, and it will mean that the effects of magic attacks will be slightly delayed. So instead of slamming an opponent with Breach immediately after your Ruby Ray destroys his spell protections, you will have to wait for a second or two. Theoretically this can add some tension and drama to magic attacks. But I haven't played around with it very much. The default value is 0.</p>
-  <p><b>dispel_bypass_globes</b> As I said above, the default behavior is for <i>Dispel Magic</i> and <i>Remove Magic</i> to bypass <i>Globes of Invulnerability</i> and innate spell-level immunity. By setting this value to 0 you can reverse that, such that <i>DM</i> and <i>RM</i> are completely blocked by spell-level immunities.</p>
-  <p><b>party_friendly_dispel</b> This makes <i>Dispel Magic</i> only affect enemies. Effectively, this means instead of <i>Dispel Magic</i> and the new version of <i>Remove Magic</i>, you will have the old version of </i>Remove Magic</i> and the new version of </i>Remove Magic</i>.</p>
-  <p><b>mini_breach_dispel</b> This will change <i>Dispel Magic</i> to have the same 'mini-Breach' effect as the new <i>Remove Magic</i>, removing one combat protection and one specific protection from the target. It still affects both enemies and party member, however. (If you set both this value and the 'party_friendly_dispel' value to 1, then both <i>Dispel Magic</i> and <i>Remove Magic</i> will effectively be the same.)</p>
-  <p><b>mini_breach_remove</b> This is set to 1 by default, and this is what gives <i>Remove Magic</i> the new 'mini-Breach' behavior. If you set this to 0, then <i>Remove Magic</i> will behave the old way, with a random chance to dispel incluenced by caster level.</p>
-  <p><b>breach_combat_protections</b> et cetera. These variables set which kinds of protections <i>Breach</i> will remove. In the base game this only includes "combat protections" (think Armor or Stoneskin) and "specific protections" (think Resist Fire or Chaotic Commands). You can optionally add "combination protections" and "noncombat protections" as well, though this only affects a select few spells.</p>
+  <p>有很多，通过“MBR_settings.ini”文件来控制。你可以在安装模组前修改这些设置。下面我逐个解释。</p>
+  <p><b>minor_deflection_levels_blocked</b>：这个设置决定不同的偏转类防护可阻挡的法术等级，默认值分别是5、10、20，另外<i>亚穹力场</i>是30。</p>
+  <p><b>spell_attack_delay</b>：可在1至5之间设置，表示破魔法术延迟生效的时间。所以，假如你用红宝石逆转射线破掉对手的法术防护，再使用破解术后，不能立刻上去暴捶了，必须等上1至2秒。理论上这会给破魔过程增加一些紧张感和戏剧性，但我并没有很深入体验过。默认值为0。</p>
+  <p><b>dispel_bypass_globes</b>：就像前面说的，默认设置下，<i>解除魔法</i>和<i>移除魔法</i>可以无视<i>法术无效结界</i>和天生法术免疫能力。将这个值设为0，你就可以让<i>DM</i>和<i>RM</i>完全被天生法术免疫能力阻挡。</p>
+  <p><b>party_friendly_dispel</b>：这项设置可以让<i>解除魔法</i>只影响敌人。这实质上是把原版<i>解除魔法</i>和新版<i>移除魔法</i>的组合，改为原版</i>移除魔法</i>和新版</i>移除魔法</i>的组合。</p>
+  <p><b>mini_breach_dispel</b>：这项设置把<i>解除魔法</i>改为像新版<i>移除魔法</i>那样的“弱化版破解术”，移除目标的一个战斗防护和一个特殊防护，不过依然是既影响敌人又影响队友。（如果你把这个值和“party_friendly_dispel”值都设为1，那么<i>解除魔法</i>和<i>移除魔法</i>实质上就是同一个法术了。）</p>
+  <p><b>mini_breach_remove</b>：这项设置默认为1，作用就是赋予<i>移除魔法</i>新的“弱化版破解术”机制。如果设为0，<i>移除魔法</i>会按照原版机制运作,按照施法等级随机驱散。</p>
+  <p><b>breach_combat_protections</b>及其它：这项变量用来设置<i>破解术</i>可移除的防护类型。原版游戏中只包括“战斗防护”（比如魔盔甲、石肤术）和“特殊防护”（比如防护火焰、混乱命令）。你可以把“combination protections”和“noncombat protections”也选上,不过只会影响少数法术。</p>
 </div>
-<h2>Contact Information</h2>
+<h2>联系信息</h2>
 <div class="section">
-  <p>This mod was created by SubtleDoctor. You can visit <a href="http://forums.gibberlings3.net/index.php">The
-    Gibberlings Three</a> for information on this and many other fine mods.</p>
+  <p>本模组由SubtleDoctor创作。你可以访问<a href="http://forums.gibberlings3.net/index.php">The
+    Gibberlings Three</a>查看本模组和更多其它优秀模组的信息。</p>
 </div>
-<h2>Thanks and Acknowledgements</h2>
+<h2>致谢</h2>
 <div class="section">
-  <p>Thanks to the still active and vibrant Infinity Engine modding community. </p>
-  <p>Thanks to Demi, Ardanis, Mike1072, kreso, and others who worked in Spell Revisions, and to DavidNYC for the work on the excellent modified spell visual effects. </p>
-  <p><strong>Tools Used in Creation</strong><br />
-    <a href="http://www.weidu.org/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> by Wes Weimer, and then the bigg and then Wisp<br />
-    <a href="http://www.idi.ntnu.no/~joh/ni/">Near Infinity</a> by Jon Olav Hauglid, and then Argent77 and Astrobryguy<br />
-    <a href="http://iesdp.gibberlings3.net/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintained by igi and then the G3 community</p>
+  <p>感谢一直活跃的无限引擎模组社区。</p>
+  <p>感谢Demi、Ardanis、Mike1072、kreso、以及其他为Spell Revisions做出贡献的作者，感谢DavidNYC修改法术视觉效果的杰出工作。</p>
+  <p><strong>创作使用的工具</strong><br />
+    <a href="http://www.weidu.org/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>：由Wes Weimer，还有the bigg和Wisp编写。<br />
+    <a href="http://www.idi.ntnu.no/~joh/ni/">Near Infinity</a>：由Jon Olav Hauglid，还有Argent77和Astrobryguy编写。<br />
+    <a href="http://iesdp.gibberlings3.net/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>：由igi，还有G3 community维护。</p>
 </div>
-<h2>Credits and Copyright Information</h2>
+<h2>版权信息</h2>
 <div class="section">
-  <p>Copyright 2021. If you want to use or adapt any part of this mod in another mod or similar endeavor, please try to contact me at forums.gibberlings3.net to discuss it. As a general rule, I have no problem with that as long as you credit the source of the work. If you cannot get in touch with me, assume that you have my permission to use any of this code for any project that is non-commercial, offered for free, and intended for the greater enjoyment of players of Infinity Engine games. If you do so, please credit me, and mention how awesome I am in a comment in the code, or something like that. You may NOT use this code for any profit-making or commercial venture, without express permission from me.</p>
+  <p>版权2021。如果你想在其他模组或类似作品中使用或改编本模组的任何部分，请尽量通过forums.gibberlings3.net与我联系讨论。一般来说，只要注明作品来源，我是不会反对的。如果无法与我取得联系，请假定你已获得我的许可，可以在任何非商业、免费提供且旨在让无限引擎游戏玩家享受更多乐趣的项目中使用这些代码。如果你这样做了，请注明我的名字，并在代码注释中写点我有多棒之类的话。未经我的明确许可，你不得将此代码用于任何盈利或商业目的。</p>
 </div>
 </body>
 </html>
