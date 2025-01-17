@@ -1,66 +1,66 @@
 @1 = ~~
 @2 = ~~
 @3 = ~~
-@10 = ~Revised Magic Battles~
+@10 = ~法术战修订~
 
 // ***** need DM, friendly DM, RM
 
 //
-@117011 = ~Shield of the Archons~
+@117011 = ~亚穹力场~
 //
-@11701 = ~Shield of the Archons
-Level: 7
-School: Abjuration
-Sphere: Protection
-Range: Personal
-Duration: 1 turn
-Casting Time: 1
-Area of Effect: Caster
-Saving Throw: None
+@11701 = ~亚穹力场
+等级：7
+学派：防护系
+领域：保护
+有效距离：个人
+持续时间：1回合
+施法时间：1
+影响范围：施法者自身
+豁免检定：无
 
-This abjuration causes any spells directed at the caster to be absorbed and consumed. This affects a total of 30 spell levels, meaning it can absorb 30 1st-level spells or 4 spells of 9th level or higher. Having one 'spell level' of protection left means a 1st level spell would get absorbed, as well as a 9th level spell. This spell will also protect the caster from Dispel/Remove Magic and Breach, while its protection lasts.
+这个防护法术可吸收并消耗任何指向施法者的法术，总共可吸收30个法术等级，这意味着可吸收30个1级法术或4个9级以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
 
-This spell absorbs magic effects cast from most scrolls and innate spell-like abilities, but will not protect against stationary area-effect spells such as Cloudkill or Stinking Cloud.
+可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收的是造成持续性效应的区域法术，例如死云术和臭云术。
 
-Shield of the Archons will block magic attacks under 5th level, such as Spell Thrust and Secret Word. A 6th-level or higher spell, such as Pierce Magic, is required to dispel it.
+亚穹力场还可阻挡5级以下的破魔法术，比如法术穿透和密言。驱散亚穹力场需要6级或更高等级的破魔法术，比如识破魔法。
 ~
 //
 //
-@123021 = ~Remove Magic~
+@123021 = ~移除魔法~
 //
-@12302 = ~Remove Magic
-Level: 3
-School: Abjuration
-Range: Visual range of caster
-Duration: special
-Casting Time: 3
-Area of Effect: 15' radius
-Saving Throw: None
+@12302 = ~移除魔法
+等级：3
+学派：防护系
+有效距离：施法者视线所及
+持续时间：特殊
+施法时间：3
+影响范围：半径15呎
+豁免检定：无
 
-This abjuration attempts to negate the magical combat protections and specific protections on enemies in the area of effect. It will dispel one combat protection and one specific protection from each such target. The targets' Magic Resistance, if any, does not affect this spell. 
+这个防护法术会驱散作用范围内敌人身上的战斗防护和特殊防护效果，每个目标驱散一个战斗防护和一个特殊防护，目标的魔法抗性（如果有）不会影响此法术。
 
-The specific protection spells dispelled by Remove Magic include Chaos Shield, Chaotic Commands, Death Ward, Divine Protection, Emotion: Hope, Exaltation, Free Action, Greater Divine Protection, Impervious Sanctity of Mind, Improved Chaos Shield, Mind Blank, Mirrored Eyes, Protection from Acid, Protection from Cold, Protection from Divination, Protection from Electricity, Protection from Energy, Protection from Fire, Protection from Magic Energy, Protection from the Elements, Resist Elements, Resist Fear, Spirit Ward, Spiritual Clarity, Storm Shell, Storm Shield, and Unfailing Endurance. 
+可被移除魔法驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、Exaltation、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言（法术战修订）、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
 
-The combat protection spells dispelled by Remove Magic include Absolute Immunity, Armor of Faith, Barkskin, Circle of Bones, Cloak of Darkness, Emotion, Courage, Fire Shield, Iron Skin, Mage Armor, Mestil's Acid Sheath, Moment of Prescience, Physical Mirror, Protection from Magical Weapons, Protection from Missiles, Protection from Normal Weapons, Shield, Spirit Armor, and Stoneskin.
+可被移除魔法驱散的战斗防护包括绝对免疫、信仰护甲、 树皮术、白骨法阵（SCS）、Cloak of Darkness、情绪：勇气（SCS）、火焰护盾、铁皮术、法师护甲（SR）、梅斯帝尔的酸性护罩（SR）、预见之刻（SR）、物质之镜、防护魔法武器、防护远程武器、防护普通武器、护盾术、魂甲术和石肤术。
 ~
 //
 //
-@123261 = ~Dispel Magic~
+@123261 = ~解除魔法~
 //
-@12326 = ~Dispel Magic
-Level: 3
-School: Abjuration
-Range: Visual range of caster
-Duration: special
-Casting Time: 3
-Area of Effect: 15' radius
-Saving Throw: None
+@12326 = ~解除魔法
+等级：3
+学派：防护系
+有效距离：施法者视线所及
+持续时间：特殊
+施法时间：3
+影响范围：半径15呎
+豁免检定：无
 
-This abjuration attempts to negate the magical combat protections and specific protections on everyone in the area of effect. It will dispel one combat protection and one specific protection from each such target. The targets' Magic Resistance, if any, does not affect this spell. 
+这个防护法术会驱散作用范围内所有生物身上的战斗防护和特殊防护效果，每个目标驱散一个战斗防护和一个特殊防护，目标的魔法抗性（如果有）不会影响此法术。
 
-The specific protection spells dispelled by Dispel Magic include Chaos Shield, Chaotic Commands, Death Ward, Divine Protection, Emotion: Hope, Exaltation, Free Action, Greater Divine Protection, Impervious Sanctity of Mind, Improved Chaos Shield, Mind Blank, Mirrored Eyes, Protection from Acid, Protection from Cold, Protection from Divination, Protection from Electricity, Protection from Energy, Protection from Fire, Protection from Magic Energy, Protection from the Elements, Resist Elements, Resist Fear, Spirit Ward, Spiritual Clarity, Storm Shell, Storm Shield, and Unfailing Endurance. 
+可被解除魔法驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、Exaltation、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言（法术战修订）、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
 
-The combat protection spells dispelled by Dispel Magic include Absolute Immunity, Armor of Faith, Barkskin, Circle of Bones, Cloak of Darkness, Emotion, Courage, Fire Shield, Iron Skin, Mage Armor, Mestil's Acid Sheath, Moment of Prescience, Physical Mirror, Protection from Magical Weapons, Protection from Missiles, Protection from Normal Weapons, Shield, Spirit Armor, and Stoneskin.
+可被解除魔法驱散的战斗防护包括绝对免疫、信仰护甲、 树皮术、白骨法阵（SCS）、Cloak of Darkness、情绪：勇气（SCS）、火焰护盾、铁皮术、法师护甲（SR）、梅斯帝尔的酸性护罩（SR）、预见之刻（SR）、物质之镜、防护魔法武器、防护远程武器、防护普通武器、护盾术、魂甲术和石肤术。
 ~
 //
 //
@@ -347,8 +347,8 @@ The spell protections removed by Spellstrike are: Minor Spell Deflection, Minor 
 ~
 //
 //
-@123101 = ~Protection from Divination~
-@12310 = ~Protection from Divination
+@123101 = ~防护预言~
+@12310 = ~防护预言
 Level: 3
 School: Abjuration
 Range: Touch
@@ -361,7 +361,7 @@ After casting this spell, if the target become invisible, sanctuaried, or otherw
 ~
 //
 //
-@14550 = ~Anti-Magic Ray~
-@14992 = ~Anti-Magic Ray~
+@14550 = ~反魔法射线~
+@14992 = ~反魔法射线~
 //
 //
