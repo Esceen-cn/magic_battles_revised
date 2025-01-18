@@ -18,9 +18,9 @@
 影响范围：施法者自身
 豁免检定：无
 
-这个防护法术可吸收并消耗任何指向施法者的法术，总共可吸收30个法术等级，这意味着可吸收30个1级法术或4个9级以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
+此法术可吸收并消耗任何指向施法者的法术，总共可吸收30个法术等级，这意味着可吸收30个1级法术或4个9级及以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
 
-可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收的是造成持续性效应的区域法术，例如死云术和臭云术。
+可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收造成持续性效应的区域法术，例如死云术和臭云术。
 
 亚穹力场还可阻挡5级以下的破魔法术，比如法术穿透和密言。驱散亚穹力场需要6级或更高等级的破魔法术，比如识破魔法。
 ~
@@ -37,9 +37,9 @@
 影响范围：半径15呎
 豁免检定：无
 
-这个防护法术会驱散作用范围内敌人身上的战斗防护和特殊防护效果，每个目标驱散一个战斗防护和一个特殊防护，目标的魔法抗性（如果有）不会影响此法术。
+此法术会驱散作用范围内敌人身上的战斗防护和特殊防护效果，每个目标驱散一个战斗防护和一个特殊防护，目标的魔法抗性对此法术无效。
 
-可被移除魔法驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、Exaltation、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言（法术战修订）、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
+可被移除魔法驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、振奋术、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
 
 可被移除魔法驱散的战斗防护包括绝对免疫、信仰护甲、 树皮术、白骨法阵（SCS）、Cloak of Darkness、情绪：勇气（SCS）、火焰护盾、铁皮术、法师护甲（SR）、梅斯帝尔的酸性护罩（SR）、预见之刻（SR）、物质之镜、防护魔法武器、防护远程武器、防护普通武器、护盾术、魂甲术和石肤术。
 ~
@@ -56,151 +56,151 @@
 影响范围：半径15呎
 豁免检定：无
 
-这个防护法术会驱散作用范围内所有生物身上的战斗防护和特殊防护效果，每个目标驱散一个战斗防护和一个特殊防护，目标的魔法抗性（如果有）不会影响此法术。
+此法术会驱散作用范围内所有生物身上的战斗防护和特殊防护效果，每个目标驱散一个战斗防护和一个特殊防护，目标的魔法抗性对此法术无效。
 
-可被解除魔法驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、Exaltation、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言（法术战修订）、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
+可被解除魔法驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、振奋术、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
 
 可被解除魔法驱散的战斗防护包括绝对免疫、信仰护甲、 树皮术、白骨法阵（SCS）、Cloak of Darkness、情绪：勇气（SCS）、火焰护盾、铁皮术、法师护甲（SR）、梅斯帝尔的酸性护罩（SR）、预见之刻（SR）、物质之镜、防护魔法武器、防护远程武器、防护普通武器、护盾术、魂甲术和石肤术。
 ~
 //
 //
-@123181 = ~Minor Spell Deflection~
+@123181 = ~次级法术偏转~
 //
-@12318 = ~Minor Spell Deflection
-Level: 3
-School: Abjuration
-Range: Personal
-Duration: 5 turns
-Casting Time: 3
-Area of Effect: Caster
-Saving Throw: None
+@12318 = ~次级法术偏转
+等级：3
+学派：防护系
+有效距离：个人
+持续时间：5回合
+施法时间：3
+影响范围：施法者自身
+豁免检定：无
 
-This abjuration causes any spells directed at the caster to be absorbed and consumed. This affects a total of 4 spell levels, meaning it can absorb four 1st-level spells or one spell of 4th level or higher. Having one 'spell level' of protection left means a 1st level spell would get absorbed, as well as a 9th level spell. This spell will also protect the caster from Dispel/Remove Magic and Breach, while its protection lasts.
+此法术可吸收并消耗任何指向施法者的法术，总共可吸收4个法术等级，这意味着可吸收4个1级法术或1个4级及以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
 
-This spell absorbs magic effects cast from most scrolls and innate spell-like abilities, but will not protect against stationary area-effect spells such as Cloudkill or Stinking Cloud.
+可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收造成持续性效应的区域法术，例如死云术和臭云术。
 ~
 //
 //
-@123211 = ~Spell Thrust~
+@123211 = ~法术穿透~
 //
-@12321 = ~Spell Thrust
-Level: 1
-School: Abjuration
-Range: Long
-Duration: Instant
-Casting Time: 3
-Area of Effect: 5' radius
-Saving Throw: None
+@12321 = ~法术穿透
+等级：1
+学派：防护系
+有效距离：长
+持续时间：立即
+施法时间：3
+影响范围：半径5呎
+豁免检定：无
 
-When this spell is cast, it will dispel one spell protection on all enemies within the area of effect. This will always dispel the highest level of spell protection on a target first. If a target has two or more protections tied for the highest level, the choice will be random. Magic resistance does not affect this spell.
+此法术可移除目标区域内所有敌人的一个法术防护，并且总是优先移除最高等级的防护，如果目标身上有两个或更多的防护效果同为最高等级，将会随机选择。目标的魔法抗性对此法术无效。
 
-The spell protections dispelled by Spell Thrust include: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, Dispelling Screen and Spell Shield. 
+可被法术穿透移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界、高级法术偏转、固法屏障（SR）和法术护盾。
 
-This spell has no effect on a target protected by Spell Trap or Shield of the Archons.
+此法术对法术陷阱和亚穹力场无效。
 ~
 //
 //
-@124061 = ~Minor Globe of Invulnerability~
+@124061 = ~次级法术无效结界~
 //
-@12406 = ~Minor Globe of Invulnerability
-Level: 4
-School: Abjuration
-Range: Personal
-Duration: 1 round/level
-Casting Time: 4
-Area of Effect: Caster
-Saving Throw: None
+@12406 = ~次级法术无效结界
+等级：4
+学派：防护系
+有效距离：个人
+持续时间：1轮/等级
+施法时间：4
+影响范围：施法者自身
+豁免检定：无
 
-This spell creates a faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, or 3rd-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the globe of invulnerability). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the globe to their subject without affecting the globe. Fourth and higher level spells are not affected by the globe.
+此法术会造出一道散发微光的魔法阻断力场围绕着施法者，可以阻断任何一至三级的法术（也就是说，这些法术的作用范围都将不包括法术无效结界的范围），这也包括了生物的特殊能力与魔法物品的效果。然而施法者本身的所有法术却能够向外穿透这个结界不受影响。四级或以上的法术将不会受到此法术的影响。
 ~
 //
 //
-@124191 = ~Secret Word~
+@124191 = ~密言~
 //
-@12419 = ~Secret Word
-Level: 4
-School: Enchantment
-Range: Long
-Duration: Instant
-Casting Time: 1
-Area of Effect: 1 creature
-Saving Throw: vs. Spells
+@12419 = ~密言
+等级：4
+学派：附魔系
+有效距离：长
+持续时间：立即
+施法时间：1
+影响范围：一个生物
+豁免检定：法术
 
-When a Secret Word spell is uttered, it will dispel two layers of spell protections on the target. Thus, it will remove a Spell Deflection and a Minor Spell Deflection, or a Minor Spell Protection and a Globe of Invulnerability, et cetera. This will always dispel the highest-level spell protection on the target (affecting up to 7th-level protection spells). Magic resistance does not affect this spell.
+施展密言法术可移除目标的两层法术防护。所以，它可以移除一个法术偏转加上一个次级法术偏转，或者一个次级法术偏转加上一个法术无效结界，诸如此类。此法术总是优先移除最高等级的防护（可影响最高至7级的防护法术）。目标的魔法抗性对此法术无效。
 
-Additionally, a Secret Word has an "ear worm" quality which can unbalance the target and make spellcasting difficult. This is similar to the effect of Deafness, imposing a 50% chance of casting failure for one round on a failed save vs. spells. This effect can occur regardless of any spell deflections or level-based immunity the target may have.
+另外，密言具有一种“耳虫”效应，可使目标精神错乱难以施法。这与耳聋的效果类似，若未通过对法术的豁免检定则会有50%几率施法失败，持续一轮。这个效果无视目标的法术偏转防护或特定等级的法术免疫能力。
 
-The spell protections dispelled by Secret Word include: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, and Greater Spell Deflection.
+可被密言移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界和高级法术偏转。
 
-Secret Word will not dispel any spell protections on a target protected by Spell Trap or Shield of the Archons. A Spell Shield will block Secret Word from dispelling any protections, though the Spell Shield itself will be fully consumed in the effort.
+密言对法术陷阱和亚穹力场无效。法术护盾可防止密言移除任何法术防护，但法术护盾自身也会在这个过程中被抵消掉。
 ~
 //
 //
-@125131 = ~Breach~
+@125131 = ~破解术~
 //
-@12513 = ~Breach
-Level: 5
-School: Abjuration
-Range: Long
-Duration: Instant
-Casting Time: 5
-Area of Effect: 1 creature
-Saving Throw: None
+@12513 = ~破解术
+等级：5
+学派：防护系
+有效距离：长
+持续时间：立即
+施法时间：5
+影响范围：一个生物
+豁免检定：无
 
-When this spell is cast at a creature, it breaches and dispels all of the 'specific protections' and 'combat protections' on the target creature. The target's Magic Resistance, if any, does not affect this spell.
+此法术会驱散目标生物身上所有的战斗防护和特殊防护效果，目标的魔法抗性对此法术无效。
 
-The 'specific protections' dispelled by Breach include spells such as: Chaos Shield, Resist Fear, Spirit Ward, Spiritual Clarity, Chaotic Commands, Death Ward, Divine Protection, Emotion: Hope, Exaltation, Free Action, Impervious Sanctity of Mind, Mind Blank, Mirrored Eyes, Protection from Acid, Protection from Cold, Protection from Fire, Protection from Electricity, Protection from the Elements, Resist Elements, Protection from Divination, Protection from Energy, Protection from Magic Energy, Storm Shell, and Storm Shield. 
+可被破解术驱散的特殊防护包括混乱护罩、混乱命令、防死结界、神圣防护（SCS）、情绪：希望（SCS）、振奋术、自由行动、高级神圣防护（SCS）、圣洁之心（SCS）、高等混乱护罩、 心灵屏障（SR）、反射之眼、防护强酸、防护寒冷、 防护预言、防护电击、防护能量、防护火焰、防护魔法能量、防护元素、抵抗元素（SR）、抵抗恐惧、防护魂灵、灵性清明、暴风壁（SCS）、风暴护盾、和驱倦术（SCS）。 
 
-The 'combat protections' dispelled by Breach include spells such as: Armor, Shield, Spirit Armor, Armor of Faith, Barkskin, Stoneskin, Iron Skin, Protection from Normal Weapons, Protection from Magical Weapons, Protection from Missiles, Physical Mirror, Circle of Bones, Cloak of Darkness, Emotion: Courage, Fire Shield, Acid Sheath, Moment of Prescience, and Absolute Immunity.~
-//
-//
-@125191 = ~Spell Shield~
-//
-@12519 = ~Spell Shield
-Level: 5
-School: Abjuration
-Range: Personal
-Duration: 5 turns
-Casting Time: 5
-Area of Effect: Caster
-Saving Throw: None
-
-When this spell is cast the wizard is protected from the next 'magic attack' spell that is used against <PRO_HIMHER>. If one of those spells is cast at the wizard this spell activates and absorbs the attack. However, this only works once as the Shell Shield is consumed in the process.
-
-The spells that Spell Shield protects the wizard from include: Spell Thrust, Secret Word, Pierce Magic, Ruby Ray, Warding Whip, and Pierce Shield.~
+可被破解术驱散的战斗防护包括绝对免疫、信仰护甲、 树皮术、白骨法阵（SCS）、Cloak of Darkness、情绪：勇气（SCS）、火焰护盾、铁皮术、法师护甲（SR）、梅斯帝尔的酸性护罩（SR）、预见之刻（SR）、物质之镜、防护魔法武器、防护远程武器、防护普通武器、护盾术、魂甲术和石肤术。~
 //
 //
-@125221 = ~Spell Deflection~
+@125191 = ~法术护盾~
 //
-@12522 = ~Spell Deflection
-Level: 5
-School: Abjuration
-Range: Personal
-Duration: 5 turns
-Casting Time: 5
-Area of Effect: Caster
-Saving Throw: None
+@12519 = ~法术护盾
+等级：5
+学派：防护系
+有效距离：个人
+持续时间：5回合
+施法时间：5
+影响范围：施法者自身
+豁免检定：无
 
-This abjuration causes any spells directed at the caster to be absorbed and consumed. This affects a total of 9 spell levels, meaning it can absorb nine 1st-level spells or one spell of 9th level or higher. Having one 'spell level' of protection left means a 1st level spell would get absorbed, as well as a 9th level spell. This spell will also protect the caster from Dispel/Remove Magic and Breach, while its protection lasts.
+此法术可保护法师免受一次破魔法术攻击。法师遭受任一破魔法术攻击时，此法术会启动并吸收攻击效果。此法术只能防护一次攻击，自身也会在这个过程中被抵消掉。
 
-Casting this spell will automatically create a Minor Spell Deflection, per the 3rd-level spell, in addition to the Spell Deflection. The Minor Deflection will not afford the caster additional 'spell levels' of protection - those from the lesser Deflection will be used up at the same time as those of this spell - but both Deflection effects will protect the caster independently when they are subjected to magic attacks like Spell Thrust or Pierce Magic.
+此法术所保护的范围有：法术穿透、密言、识破魔法、红宝石逆转射线、凯尔本守护之鞭和识破护盾。~
+//
+//
+@125221 = ~法术偏转~
+//
+@12522 = ~法术偏转
+等级：5
+学派：防护系
+有效距离：个人
+持续时间：5回合
+施法时间：5
+影响范围：施法者自身
+豁免检定：无
 
-This spell absorbs magic effects cast from most scrolls and innate spell-like abilities, but will not protect against stationary area-effect spells such as Cloudkill or Stinking Cloud.
+这个防护法术可吸收并消耗任何指向施法者的法术，总共可吸收9个法术等级，这意味着可吸收9个1级法术或1个9级及以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
+
+施展此法术会在法术偏转基础上自动附加一个三级法术次级法术偏转。附加的法术不会为施法者提供额外的“法术保护等级”——附加法术的保护等级会在本法术的保护等级消耗完毕后同时消失——但当面对法术穿透或识破魔法这样的破魔法术时，所有的偏转类防护效果可以共同作用以保护施法者。
+
+可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收造成持续性效应的区域法术，例如死云术和臭云术。
 ~
 //
 //
-@126021 = ~Globe of Invulnerability~
+@126021 = ~法术无效结界~
 //
-@12602 = ~Globe of Invulnerability
-Level: 6
-School: Abjuration
-Range: Personal
-Duration: 1 round/level
-Casting Time: 6
-Area of Effect: Caster
-Saving Throw: None
+@12602 = ~法术无效结界
+等级：6
+学派：防护系
+有效距离：个人
+持续时间：1轮/等级
+施法时间：6
+影响范围：施法者自身
+豁免检定：无
 
-This spell creates an immobile, faintly shimmering magical sphere around the caster that prevents any 1st-, 2nd-, 3rd- or 4th-level spell effects from penetrating (i.e., the area of effect of any such spells does not include the area of the globe of invulnerability). This includes innate abilities and effects from devices. However, any type of spell can be cast out of the magical sphere, and these pass from the caster of the globe to their subject without affecting the globe. Fifth and higher level spells are not affected by the globe. The globe can be brought down by abjurative forms of magical attack such as Pierce Magic and Spellstrike.
+此法术会造出一道固定位置、散发微光的魔法阻断力场围绕着施法者，可以阻断任何一至四级的法术（也就是说，这些法术的作用范围都将不包括法术无效结界的范围），这也包括了生物的特殊能力与魔法物品的效果。然而施法者本身的所有法术却能够向外穿透这个结界不受影响。五级或以上的法术将不会受到此法术的影响。这个法术可以使用五级或以上的法术，例如法术重击与识破魔法等类的法术予以破解。
 ~
 //
 //
@@ -227,26 +227,22 @@ The effects of Pierce Magic are not deterred by a Spell Shield. Pierce Magic wil
 ~
 //
 //
-@127011 = ~Greater Spell Deflection~
+@127011 = ~高级法术偏转~
 //
-@12701 = ~Greater Spell Deflection
-Level: 7
-School: Abjuration
-Range: Personal
-Duration: 5 turns
-Casting Time: 7
-Area of Effect: Caster
-Saving Throw: None
+@12701 = ~高级法术偏转
+等级：7
+学派：防护系
+有效距离：个人
+持续时间：5回合
+施法时间：7
+影响范围：施法者自身
+豁免检定：无
 
-This abjuration causes any spells directed at the caster to be absorbed and consumed. This affects a total of 18 spell levels, meaning it can absorb eighteen 1st-level spells or two spells of 9th level or higher. Having one 'spell level' of protection left means a 1st level spell would get absorbed, as well as a 9th level spell. This spell will also protect the caster from Dispel/Remove Magic and Breach, while its protection lasts.
+这个防护法术可吸收并消耗任何指向施法者的法术，总共可吸收18个法术等级，这意味着可吸收18个1级法术或2个9级及以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
 
-Casting this spell will automatically create a Minor Spell Deflection and a Spell Deflection in addition to the Greater Spell Deflection. The lesser Deflection effects will not afford the caster additional 'spell levels' of protection - those from the lesser Deflections will be used up at the same time as those of this spell - but all three Deflection effects will independently protect the caster when they are subjected to magic attacks like Spell Thrust or Pierce Magic.
+施展此法术会在高级法术偏转基础上自动附加一个次级法术偏转和一个法术偏转。附加的法术不会为施法者提供额外的“法术保护等级”——附加法术的保护等级会在本法术的保护等级消耗完毕后同时消失——但当面对法术穿透或识破魔法这样的破魔法术时，所有的偏转类防护效果可以共同作用以保护施法者。
 
-This spell absorbs magic effects cast from most scrolls and innate spell-like abilities, but will not protect against stationary area-effect spells such as Cloudkill or Stinking Cloud.
-
-Casting this spell will automatically raise an additional Spell Deflection and Minor Spell Deflection. These Deflections will not afford the caster additional spell levels of protection - their spell levels of absorption will be used up at the same time as the 18 spell levels from this spell - but they will provide the caster with at total of three layers of protection against magic attacks like Spell Thrust or Pierce Magic.
-
-This spell absorbs spells cast from scrolls and innate spell-like abilities, but will not protect against stationary area effect spells (such as Cloudkill or Stinking Cloud).
+可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收造成持续性效应的区域法术，例如死云术和臭云术。
 ~
 //
 //
