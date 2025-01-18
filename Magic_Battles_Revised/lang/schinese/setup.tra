@@ -84,7 +84,7 @@
 @123211 = ~法术穿透~
 //
 @12321 = ~法术穿透
-等级：1
+等级：3
 学派：防护系
 有效距离：长
 持续时间：立即
@@ -126,7 +126,7 @@
 影响范围：一个生物
 豁免检定：法术
 
-施展密言法术可移除目标的两层法术防护。所以，它可以移除一个法术偏转加上一个次级法术偏转，或者一个次级法术偏转加上一个法术无效结界，诸如此类。此法术总是优先移除最高等级的防护（可影响最高至7级的防护法术）。目标的魔法抗性对此法术无效。
+施展密言法术可移除目标的两层法术防护。所以，它可以移除法术偏转加上次级法术偏转，或者次级法术偏转加上法术无效结界，诸如此类。此法术总是优先移除最高等级的防护（可影响最高至7级的防护法术）。目标的魔法抗性对此法术无效。
 
 另外，密言具有一种“耳虫”效应，可使目标精神错乱难以施法。这与耳聋的效果类似，若未通过对法术的豁免检定则会有50%几率施法失败，持续一轮。这个效果无视目标的法术偏转防护或特定等级的法术免疫能力。
 
@@ -183,7 +183,7 @@
 
 这个防护法术可吸收并消耗任何指向施法者的法术，总共可吸收9个法术等级，这意味着可吸收9个1级法术或1个9级及以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
 
-施展此法术会在法术偏转基础上自动附加一个三级法术次级法术偏转。附加的法术不会为施法者提供额外的“法术保护等级”——附加法术的保护等级会在本法术的保护等级消耗完毕后同时消失——但当面对法术穿透或识破魔法这样的破魔法术时，所有的偏转类防护效果可以共同作用以保护施法者。
+施展此法术会在法术偏转基础上自动附加三级法术次级法术偏转。附加的法术不会为施法者提供额外的“法术保护等级”——附加法术的保护等级会在本法术的保护等级消耗完毕后同时消失——但当面对法术穿透或识破魔法这样的破魔法术时，所有的偏转类防护效果可以共同作用以保护施法者。
 
 可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收造成持续性效应的区域法术，例如死云术和臭云术。
 ~
@@ -204,26 +204,26 @@
 ~
 //
 //
-@126081 = ~Pierce Magic~
+@126081 = ~识破魔法~
 //
-@12608 = ~Pierce Magic
-Level: 6
-School: Abjuration
-Range: Long
-Duration: Special
-Casting Time: 6
-Area of Effect: 1 creature
-Saving Throw: None
+@12608 = ~识破魔法
+等级：6
+学派：防护系
+有效距离：长
+持续时间：特殊
+施法时间：6
+影响范围：一个生物
+豁免检定：无
 
-When this spell is cast upon a target creature there will be three effects. First, the target's Magic Resistance, if any, will be nullified and set to zero for two rounds. This occurs regardless of any spell deflections or level-based immunity the target may have.
+此法术作用于目标生物后有三个效果。第一，目标的魔法抗性（如果有的话）将被清除并设置为0，持续两轮。这个效果无视目标的法术偏转防护或特定等级的法术免疫能力。
 
-Second, this spell will destroy a Spell Shield protecting the target.
+第二，此法术将移除目标身上的法术护盾。
 
-Third, this spell will dispel two layers of spell protections from the creature, similar to Secret Word. Thus, it will dispel Greater Spell Deflection and Spell Deflection; or Spell Deflection and Globe of Invulnerability; et cetera. This will always dispel the highest-level spell protections on the target (affecting up to 7th-level protection spells). Magic resistance does not affect this spell.
+第三，此法术将移除目标身上的两层法师防护，与密言类似。所以，它可以移除高级法术偏转加上法术偏转，或者法术偏转加上法术无效结界，诸如此类。此法术总是优先移除最高等级的防护（可影响最高至7级的防护法术）。目标的魔法抗性对此法术无效。
 
-The spell protections dispelled by Pierce Magic include: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, and Shield of the Archons. 
+可被识破魔法移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界、高级法术偏转和亚穹力场。
 
-The effects of Pierce Magic are not deterred by a Spell Shield. Pierce Magic will not dispel any spell protections on a target protected by Spell Trap.
+识破魔法的效果不会被法术护盾阻挡，但如果目标受法术陷阱保护，识破魔法就无法移除任何法术防护。
 ~
 //
 //
@@ -240,120 +240,120 @@ The effects of Pierce Magic are not deterred by a Spell Shield. Pierce Magic wil
 
 这个防护法术可吸收并消耗任何指向施法者的法术，总共可吸收18个法术等级，这意味着可吸收18个1级法术或2个9级及以上法术。只剩余1个受保护的“法术等级”时，可吸收1个1级法术，也可吸收1个9级法术。这个法术持续时，还会保护施法者免受解除魔法、移除魔法和破解术的影响。
 
-施展此法术会在高级法术偏转基础上自动附加一个次级法术偏转和一个法术偏转。附加的法术不会为施法者提供额外的“法术保护等级”——附加法术的保护等级会在本法术的保护等级消耗完毕后同时消失——但当面对法术穿透或识破魔法这样的破魔法术时，所有的偏转类防护效果可以共同作用以保护施法者。
+施展此法术会在高级法术偏转基础上自动附加法术偏转和次级法术偏转。附加的法术不会为施法者提供额外的“法术保护等级”——附加法术的保护等级会在本法术的保护等级消耗完毕后同时消失——但当面对法术穿透或识破魔法这样的破魔法术时，所有的偏转类防护效果可以共同作用以保护施法者。
 
 可以吸收的法术包含从卷轴施展的法术，以及具有法术性质的特殊能力，不能吸收造成持续性效应的区域法术，例如死云术和臭云术。
 ~
 //
 //
-@127041 = ~Ruby Ray of Reversal~
+@127041 = ~红宝石逆转射线~
 //
-@12704 = ~Ruby Ray of Reversal
-Level: 7
-School: Alteration
-Range: Long
-Duration: Instant
-Casting Time: 5
-Area of Effect: 1 creature
-Saving Throw: vs. Spells
+@12704 = ~红宝石逆转射线
+等级：7
+学派：变化系
+有效距离：长
+持续时间：立即
+施法时间：5
+影响范围：一个生物
+豁免检定：法术
 
-When a Ruby Ray of Reversal is directed at a target, it will dispel three layers of spell protections on the target. Thus, it will dispel Greater Spell Deflection, Spell Deflection, and Minor Spell Deflection; or Greater Spell Deflection, Spell Deflection, and Globe of Invulnerability; et cetera. This will always dispel the highest-level spell protection on the target. Magic resistance does not affect this spell.
+此法术可移除目标身上的三层法术防护。所以，它可以移除高级法术偏转加上法术偏转和次级法术偏转，或者高级法术偏转加上法术偏转和法术无效结界，诸如此类。此法术总是优先移除最高等级的防护。目标的魔法抗性对此法术无效。
 
-Additionally, A Ruby Ray is capable of destroying a Spell Trap, the most powerful spell protection. In this case, the Ruby Ray is consumed and will not remove any lesser spell protections.
+另外，红宝石逆转射线可以移除最强大的法术防护——法术陷阱。这种情况下，红宝石逆转射线会被消耗掉，无法再移除其它低级法术防护。
 
-Finally, the searing light of the Ruby Ray can blind the target for one round, and this effect can occur regardless of any spell protections the target may have. A successful saving throw vs. spells at a -2 penalty will negate this effect.
+最后，红宝石逆转射线的强烈光芒可使目标目盲一轮，这个效果无视目标的法术偏转防护或特定等级的法术免疫能力。目标若以-2不利通过对法术的豁免检定则不受目盲效果影响。
 
-The spell protections dispelled by Ruby Ray of Reversal include: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Spell Trap.
+可被红宝石逆转射线移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界、高级法术偏转、亚穹力场和法术陷阱。
 
-A Spell Shield will block Ruby Ray of Reversal from dispelling any protections, though the Spell Shield itself will be fully consumed in the effort.
+法术护盾可以阻挡红宝石逆转射线移除任何防护，不过法术护盾自身也会在这一过程中被消耗掉。
 ~
 //
 //
-@127051 = ~Khelben's Warding Whip~
+@127051 = ~凯尔本守护之鞭~
 //
-@12705 = ~Khelben's Warding Whip
-Level: 7
-School: Evocation
-Range: Medium
-Duration: 3 rounds
-Casting Time: 7
-Area of Effect: 1 creature
-Saving Throw: None
+@12705 = ~凯尔本守护之鞭
+等级：7
+学派：塑能系
+有效距离：中
+持续时间：3轮
+施法时间：7
+影响范围：一个生物
+豁免检定：无
 
-When this spell is cast on the target creature, it will dispel two layers of spell protections on the taret, similar to the effect of Secret Word. Thus, it will remove a Spell Deflection and a Minor Spell Deflection, or a Minor Spell Protection and a Globe of Invulnerability, et cetera.
+此法术可目标身上的两层法术防护，效果类似于密言。所以，它可以移除法术偏转加上次级法术偏转，或者次级法术偏转加上法术无效结界，诸如此类。
 
-Then, this effect will be repeated twice: one round later and two round later. In each case, the Warding Whip will dispel either two spell protections or a Spell Shield. Every round thereafter, until the duration of the spell expires, another two layers of spell protections or one Spell Shield will be removed. This will always dispel the highest level of spell protection on the target first (affecting up to 8th-level protection spells). The target's magic resistance, if any, does not affect this spell.
+然后，同样的效果会重复两次，分别在一轮后和两轮后，每次会移除两个法术防护或法术护盾。此法术总是优先移除最高等级的防护（可影响最高至8级的防护法术）。目标的魔法抗性对此法术无效。
 
-The spell protections dispelled by Khelben's Warding Whip include: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, and Greater Spell Deflection. 
+可被凯尔本守护之鞭移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界和高级法术偏转。
 
-A Spell Shield will block one application of the Warding Whip, though the Spell Shield itself will be fully consumed in the effort and subsequent repetitions will continue to occur.
+法术护盾可以阻挡凯尔本守护之鞭的一次效果，不过法术护盾自身也会在这一过程中被消耗掉，随后重复施放会继续这一过程。
 ~
 //
 //
-@128051 = ~Pierce Shield~
+@128051 = ~识破护盾~
 //
-@12805 = ~Pierce Shield
-Level: 8
-School: Abjuration
-Range: Long
-Duration: Special
-Casting Time: 8
-Area of Effect: 1 creature
-Saving Throw: None
+@12805 = ~识破护盾
+等级：8
+学派：防护系
+有效距离：长
+持续时间：特殊
+施法时间：8
+影响范围：一个生物
+豁免检定：无
 
-When this spell is cast upon a target creature there will be two effects. First, this spell will destroy a Spell Shield protecting the target.
+此法术作用于目标生物后有两个效果。第一，此法术会移除目标身上的法术护盾。
 
-Second, similar to Ruby Ray of reversal, this spell will dispel either three layers of spell protections from the creature, or one Spell Trap. 
+第二，与红宝石逆转射线类似，此法术会移除目标身上的三层法术防护，或是移除法术陷阱。
 
-The spell protections dispelled by Pierce Shield include: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, and Spell Trap. 
+可被识破护盾移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界、高级法术偏转、亚穹力场和法术陷阱。 
 
-The effects of Pierce Shield are not deterred by a Spell Shield.
+识破护盾的效果不会被法术护盾阻挡。
 ~
 //
 //
-@129021 = ~Spell Trap~
+@129021 = ~法术陷阱~
 //
-@12902 = ~Spell Trap
-Level: 9
-School: Abjuration
-Range: Personal
-Duration: 1 turn
-Casting Time: 1 round
-Area of Effect: Caster
-Saving Throw: None
+@12902 = ~法术陷阱
+等级：9
+学派：防护系
+有效距离：个人
+持续时间：1回合
+施法时间：1轮
+影响范围：施法者自身
+豁免检定：无
 
-This immensely powerful abjuration combines two capabilities. First, it acts as a spell protection, allowing the caster to ignore the effects of *any* spells cast at or near <PRO_HIMHER>. In this regard it could be considered a one-way Anti-Magic Shell, or a supreme version of a Globe of Invulnerability, blocking all spell effects of levels one through nine. Second, the Spell Trap acts like a powerful Spell Shield, blocking magic attacks such as Spell Thrust or Pierce Magic from dispelling any of the caster's lesser spell protections. A Spell trap must be removed by a Ruby Ray of Reversal or Pierce Shield spell before enemies can begin to remove other, lesser protections such as Spell Deflections.
+这个无比强大的防护法术有两项能力。第一，作为法术防护，它可使施法者对*任意*指向<PRO_HIMHER>或在<PRO_HIMHER>附近的法术效果免疫。它可被视为一个单向的反魔法护罩，或是超级版的法术无效结界，可阻挡从一级到九级的所有法术效果。第二，法术陷阱同时相当于强力版的法术护盾，可防止任何破魔法术（如法术穿透或识破魔法）移除低级法术防护。法术陷阱可被红宝石逆转射线或识破护盾移除，以后敌人才能移除其它法术防护（如法术偏转）。
 ~
 //
 //
-@129031 = ~Spellstrike~
+@129031 = ~法术重击~
 //
-@12903 = ~Spellstrike
-Level: 9
-School: Abjuration
-Range: Long
-Duration: Special
-Casting Time: 5
-Area of Effect: 1 creature
-Saving Throw: None
+@12903 = ~法术重击
+等级：9
+学派：防护系
+有效距离：长
+持续时间：特殊
+施法时间：5
+影响范围：一个生物
+豁免检定：无
 
-When this spell is cast, it will dispel ALL spell protections and spell shields on the target. In addition, affected creature will suffer from 100% spell failure rate in the first round, followed by 50% spell failure in the second round. Magic resistance does not affect this spell.
+此法术可移除目标身上的*所有*法术防护和法术护盾。另外，目标生物在接下来一轮内施法失败率为100%，第二轮施法失败率为50%。目标的魔法抗性对此法术无效。
 
-The spell protections removed by Spellstrike are: Minor Spell Deflection, Minor Globe of Invulnerability, Spell Deflection, Globe of Invulnerability, Greater Spell Deflection, Shield of the Archons, Spell Trap, and Spell Shield.
+可被法术重击移除的法术防护包括：次级法术偏转、次级法术无效结界、法术偏转、法术无效结界、高级法术偏转、亚穹力场、法术陷阱和法术护盾。
 ~
 //
 //
 @123101 = ~防护预言~
 @12310 = ~防护预言
-Level: 3
-School: Abjuration
-Range: Touch
-Duration: 8 hours
-Casting Time: 3
-Area of Effect: 1 creature
-Saving Throw: None
+等级：3
+学派：防护系
+有效距离：触碰
+持续时间：8小时
+施法时间：3
+影响范围：一个生物
+豁免检定：无
 
-After casting this spell, if the target become invisible, sanctuaried, or otherwise hidden, divinations such as Invisibility Purge, Oracle, True Sight, and a thief's Detect Illusion ability will not be able to dispel the invisibility or reveal the hidden creature. (Someone who can sense invisible creatures will be able to detect and target the beneficiary of this spell, however.)
+此法术施展后，若目标处于隐形、被圣域术保护、或其它潜行状态，预言系法术（如消除隐形、谕言、真实视域）和盗贼的侦测隐形能力将不能消除隐形状态或使潜行生物暴露。（不过，能天生看破隐形的生物可以侦测到并瞄准受术者。）
 ~
 //
 //
